@@ -7,7 +7,9 @@ The hardware consist of:
 - electrical self made board with 3 x IRL540 for current light control,
 - 2 x motion detection - PIR HC-SR501,
 - 1 x photoresistor
-- 1 x Real Time Clock DS1302 
+- 1 x Real Time Clock DS1302
+
+For RTC control an external library i used - RTC by Makuna
 
 Light is being activated when motion sensors detect motion. 
 Software uses Real Time Clock to activate light at dusk. On cloudy day light can be activated earlier if photoresistor detects lover level of light. 
